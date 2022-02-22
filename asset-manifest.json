@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/Logo-Idea-2/static/css/main.b85fe4fe.css",
+    "main.js": "/Logo-Idea-2/static/js/main.d3247b2e.js",
+    "static/js/787.870a4bc5.chunk.js": "/Logo-Idea-2/static/js/787.870a4bc5.chunk.js",
+    "static/media/logo-21.png": "/Logo-Idea-2/static/media/logo-21.da8a58cf07fdf8b9fc6a.png",
+    "static/media/logo-1.png": "/Logo-Idea-2/static/media/logo-1.a78f18f10089e749e77a.png",
+    "static/media/logo-22.png": "/Logo-Idea-2/static/media/logo-22.4b3c918abe3446f041b0.png",
+    "static/media/logo-13.png": "/Logo-Idea-2/static/media/logo-13.4bef0357a22852881206.png",
+    "static/media/logo-6.png": "/Logo-Idea-2/static/media/logo-6.4f916b8c8ceb27246d76.png",
+    "static/media/logo-11.png": "/Logo-Idea-2/static/media/logo-11.19cf2f0a8d126a5593d3.png",
+    "static/media/logo-14.png": "/Logo-Idea-2/static/media/logo-14.2eda3eb71af3119ce8bc.png",
+    "static/media/logo-2.png": "/Logo-Idea-2/static/media/logo-2.5a17f6db32c2ca5771f5.png",
+    "static/media/logo-12.png": "/Logo-Idea-2/static/media/logo-12.51061d40ba908cf4e376.png",
+    "static/media/logo-3.png": "/Logo-Idea-2/static/media/logo-3.58f2d9c3f23d007b99ad.png",
+    "static/media/logo-19.png": "/Logo-Idea-2/static/media/logo-19.f0aa849b8af01e87b65c.png",
+    "static/media/logo-20.png": "/Logo-Idea-2/static/media/logo-20.4b19816070baa9d07823.png",
+    "static/media/logo-17.png": "/Logo-Idea-2/static/media/logo-17.bf78d5ae323998a8f4fd.png",
+    "static/media/logo-7.png": "/Logo-Idea-2/static/media/logo-7.6253810b29d59124b072.png",
+    "static/media/logo-16.png": "/Logo-Idea-2/static/media/logo-16.e9bcc53f03461b95593c.png",
+    "static/media/logo-18.png": "/Logo-Idea-2/static/media/logo-18.9e282367a1a338d38069.png",
+    "static/media/logo-8.png": "/Logo-Idea-2/static/media/logo-8.b7115795d518c41603bd.png",
+    "static/media/logo-5.png": "/Logo-Idea-2/static/media/logo-5.91e33597fb2b8e6e67f8.png",
+    "static/media/logo-15.png": "/Logo-Idea-2/static/media/logo-15.e48fded754d656200db3.png",
+    "static/media/logo-4.png": "/Logo-Idea-2/static/media/logo-4.9a847e24e50005cc153f.png",
+    "static/media/logo-9.png": "/Logo-Idea-2/static/media/logo-9.b51a1776de087c7d52bd.png",
+    "static/media/logo-10.png": "/Logo-Idea-2/static/media/logo-10.3c6b36910540d1bd714e.png",
+    "index.html": "/Logo-Idea-2/index.html",
+    "main.b85fe4fe.css.map": "/Logo-Idea-2/static/css/main.b85fe4fe.css.map",
+    "main.d3247b2e.js.map": "/Logo-Idea-2/static/js/main.d3247b2e.js.map",
+    "787.870a4bc5.chunk.js.map": "/Logo-Idea-2/static/js/787.870a4bc5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b85fe4fe.css",
+    "static/js/main.d3247b2e.js"
+  ]
+}
