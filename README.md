@@ -3,4 +3,4 @@
 <br>
 <br>
 
-<a href="https://hh-beep.github.io/Logo-Ideas-2/#/">  Link  </a>
+<a href="https://hh-beep.github.io/Logo-Idea-2/#/">  Link  </a>
