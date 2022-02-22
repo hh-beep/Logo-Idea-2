@@ -1,0 +1,136 @@
+.main {
+  background-color: #1B1A20;
+}
+.main .container {
+  display: flex;
+  justify-content: space-around;
+}
+.main .container__item {
+  text-decoration: none;
+  border: 2px solid #A7A8AC;
+  border-radius: 8px;
+  width: 40rem;
+  height: 40rem;
+  transition: 500ms all;
+  cursor: pointer;
+  outline: none;
+  background: transparent;
+  position: relative;
+  z-index: 1;
+}
+.main .container__item::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0px;
+  height: 100%;
+  background-color: #22222A;
+  z-index: -1;
+  transition: all 500ms;
+  border-radius: 10px;
+}
+.main .container__item::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 0px;
+  height: 100%;
+  background-color: #22222A;
+  z-index: -1;
+  transition: all 500ms;
+  border-radius: 10px;
+}
+.main .container__item:hover {
+  border: 2px solid white;
+}
+.main .container__item:hover .box__tittle {
+  color: white;
+}
+.main .container__item:hover::before, .main .container__item:hover::after {
+  width: 100%;
+  height: 100%;
+}
+.main .container__item .box {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  margin: 2rem;
+  transition: 300ms all;
+}
+.main .container__item .box__tittle {
+  color: #A7A8AC;
+  margin: 1rem 0;
+  font-size: 1.5rem;
+  transition: 300ms all;
+}
+.main .container__item .box__image {
+  width: 20rem;
+  padding: 3rem;
+  border-radius: 40px;
+  margin: 1rem 0;
+  transition: 300ms all;
+}
+.main .form {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 6rem 0;
+}
+.main .form__btn {
+  height: 5rem;
+  width: 15rem;
+  font-size: 23px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background: transparent;
+  color: white;
+  font-weight: 700;
+  position: relative;
+  transition: all 400ms;
+  z-index: 1;
+}
+.main .form__btn::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 5px;
+  height: 50%;
+  background-color: white;
+  z-index: -1;
+  transition: all 500ms;
+}
+.main .form__btn::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 5px;
+  height: 50%;
+  background-color: white;
+  z-index: -1;
+  transition: all 500ms;
+}
+.main .form__btn:hover::before, .main .form__btn:hover::after {
+  width: 50%;
+  height: 100%;
+}
+.main .form__btn:hover {
+  color: black;
+}
+.main .form__btn:active::before, .main .form__btn:active::after {
+  background: #b9b9b9;
+}
+
+.blackBG {
+  background-color: black;
+}
+
+.whiteBG {
+  background-color: white;
+}
+
+/*# sourceMappingURL=style.css.map */

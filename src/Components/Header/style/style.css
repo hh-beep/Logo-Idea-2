@@ -1,0 +1,13 @@
+.header {
+  background-color: #22222A;
+  display: flex;
+  justify-content: space-around;
+  padding: 4rem 0;
+  border-bottom: 2px solid #A7A8AC;
+}
+.header__tittle {
+  color: #968361;
+  font-size: 3rem;
+}
+
+/*# sourceMappingURL=style.css.map */

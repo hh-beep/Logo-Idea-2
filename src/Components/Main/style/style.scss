@@ -1,0 +1,83 @@
+$dark: #1B1A20;
+$light-dark: #22222A;
+$gold: #968361;
+$grey: #A7A8AC;
+
+@mixin cellScreen() {
+  @media (max-width: 720px) {  @content;  }
+}
+
+.main {
+  background: $dark;
+  padding: 5rem 0;
+
+  &__list {
+    width: 75%;
+    margin: 0 auto;
+    display: flex;
+    align-items: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+    .item {
+      width: auto;
+      margin: 1rem;
+      list-style: none;
+      background-color: $dark;
+      border: 1px solid $grey;
+      padding: 2rem 3rem;
+      border-radius: 10px;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      flex-direction: column;
+      transition: 500ms all;
+
+      @include cellScreen {
+
+        padding: 2rem;
+        margin: 2rem;
+
+      }
+
+      &__tittle {
+        color: $grey;
+        padding: 1rem .5rem;
+        transition: .5s all;
+      }
+      &__image {
+
+        @include cellScreen {
+
+          width: 10rem;
+          padding: 2rem;
+
+        }
+
+        width: 15rem;
+        padding: 2rem;
+        border-radius: 40px;
+        
+      }
+
+      &:hover {
+        background-color: $light-dark;
+        cursor: pointer;
+        box-shadow: 1px 1px 20px -5px whitesmoke;
+        border: 1px solid white;
+
+        h1.item__tittle {
+          color: white;
+        }
+      }
+      
+    }
+  }
+}
+.blackBG {
+  background-color: black;
+
+}
+.whiteBG {
+  background-color: white;
+}
